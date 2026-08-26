@@ -1,0 +1,14 @@
+{
+  "name": "arrowflow",
+  "version": "2.0.0",
+  "description": "ArrowFlow: Clear the Path \u2014 a production-grade arrow-escape puzzle game (single-file web build, offline-first).",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test:engine": "node test/engine.test.js",
+    "test:dom": "node test/dom.test.js",
+    "test:mechanics": "node test/mechanics.test.js",
+    "test:features": "node test/features.test.js",
+    "test:track": "node test/track.test.js"
+  },
+  "license": "MIT"
+}
